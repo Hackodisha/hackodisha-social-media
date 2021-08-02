@@ -20,15 +20,15 @@ function SocialLinks() {
           </Card>
         </a>
 
-        <a href="https://jarvis.owasp.co.in/">
+        <a href="http://bit.ly/HOmeme">
           <Card>
             <div className="box-img-container">
               <img
                 className="box-img-jarvis"
-                src={require('./assets/logo-owasp.png').default}
-                alt="Hackodisha JARVIS Registeration"
+                src={require('./assets/hackodisha-logo.png').default}
+                alt="Hackodisha MEME Competition Lord of the memes"
               ></img>
-              <span className="box-content"> Register for J.A.R.V.I.S</span>
+              <span className="box-content"> Lord Of The MEMES</span>
             </div>
           </Card>{' '}
         </a>
