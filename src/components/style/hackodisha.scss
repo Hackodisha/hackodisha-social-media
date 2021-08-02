@@ -10,19 +10,16 @@
   text-align: center;
   box-sizing: border-box;
   text-decoration: none;
+  overflow-x: hidden;
 
   .Hackodisha-container {
-    font-size: 5rem;
-    font-weight: 800;
     margin-top: 5vh;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
   }
 
-  .hack {
-    color: #ffffff;
-  }
-  .odisha {
-    color: #ff0000;
+  .hackodisha {
+    font-size: 7vw;
+    font-weight: 800;
   }
 
   // for date component
@@ -32,10 +29,23 @@
   }
 
   .paragraph {
-    // text-align: justify;
     padding: 0 10px;
     margin: 5vh 10vw;
     font-size: 2rem;
+  }
+
+   @media screen and (max-width: 768px) {
+      .hackodisha{
+        font-size: 3rem;
+      }
+      .date-component{
+        font-size: 1.5rem;
+      }
+      .paragraph{
+        font-size: 1.3rem;
+        margin: 0;
+
+      }
   }
 
   // for card component
@@ -47,9 +57,8 @@
     justify-content: center;
 
     .social-links-container {
-      // width: 80vw;
+      width: 80vw;
       display: flex;
-      //margin: 10vh 20vw;
       flex-wrap: wrap;
       text-decoration: none;
       justify-content: center;
@@ -87,8 +96,6 @@
           justify-content: center;
           align-items: center;
           background-color: black;
-          width: max-content;
-          height: max-content;
           text-decoration: none;
           font-size: 1.5rem;
           font-weight: 500;
