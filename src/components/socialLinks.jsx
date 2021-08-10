@@ -24,7 +24,7 @@ function SocialLinks() {
           <Card>
             <div className="box-img-container">
               <img
-                className="box-img-jarvis"
+                className="box-img"
                 src={require('./assets/hackodisha-logo.png').default}
                 alt="Hackodisha MEME Competition Lord of the memes"
               ></img>
