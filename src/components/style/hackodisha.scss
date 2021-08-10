@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  // right: 0;
   background-color: #1e1f20;
   color: white;
   text-align: center;
@@ -84,17 +84,18 @@
             background-color: transparent;
         }
         .box-img-apply-with-devfolio{
-            width: 70%;
-            height: 50px;
+            width: 75%;
+            height: 90px;
             background-color: transparent;
 
         }
 
         .box-content {
-          // position:  fixed;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          position:  absolute;
+          bottom: 32px;
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
           background-color: black;
           text-decoration: none;
           font-size: 1.5rem;

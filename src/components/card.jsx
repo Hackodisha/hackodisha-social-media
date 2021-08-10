@@ -9,12 +9,13 @@ export const Card = styled.div`
   justify-content: space-between;
   text-align: center;
   margin: 10px 30px;
+  position: relative;
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width: 768px) {
     margin: 10px 3px;
   }
 
-  @media screen and (min-width:769px) and (max-width:1024px){
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
     margin: 10px 20px;
   }
 `;
