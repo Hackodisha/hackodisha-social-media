@@ -6,7 +6,7 @@ function SocialLinks() {
   return (
     <div className="social">
       <div className="social-links-container">
-      <a href="https://devfolio.co/hackodisha/dashboard">
+        <a href="https://devfolio.co/hackodisha/dashboard">
           {' '}
           <Card>
             <div className="box-img-container">
@@ -24,7 +24,7 @@ function SocialLinks() {
           <Card>
             <div className="box-img-container">
               <img
-                className="box-img-jarvis"
+                className="box-img"
                 src={require('./assets/hackodisha-logo.png').default}
                 alt="Hackodisha MEME Competition Lord of the memes"
               ></img>
@@ -32,7 +32,6 @@ function SocialLinks() {
             </div>
           </Card>{' '}
         </a>
-
 
         <a href="https://hackodisha.xyz/">
           {' '}
@@ -48,7 +47,6 @@ function SocialLinks() {
           </Card>{' '}
         </a>
 
-
         <a href="https://hackodisha.typeform.com/to/N19eeAoC">
           {' '}
           <Card>
@@ -62,8 +60,6 @@ function SocialLinks() {
             </div>
           </Card>{' '}
         </a>
-
-        
 
         <a href="https://discord.gg/nHbKFw6h">
           <Card>
