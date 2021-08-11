@@ -34,7 +34,7 @@ function SocialLinks() {
           </Card>{' '}
         </a>
 
-        <a href="https://discord.gg/nHbKFw6h">
+        <a href="https://discord.com/invite/VWrQxSg9nR">
           <Card>
             <div className="box-img-container">
               <img
