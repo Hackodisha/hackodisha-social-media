@@ -20,19 +20,6 @@ function SocialLinks() {
           </Card>
         </a>
 
-        <a href="http://bit.ly/HOmeme">
-          <Card>
-            <div className="box-img-container">
-              <img
-                className="box-img"
-                src={require('./assets/hackodisha-logo.png').default}
-                alt="Hackodisha MEME Competition Lord of the memes"
-              ></img>
-              <span className="box-content"> Lord of the memes</span>
-            </div>
-          </Card>{' '}
-        </a>
-
         <a href="https://hackodisha.xyz/">
           {' '}
           <Card>
@@ -45,6 +32,19 @@ function SocialLinks() {
               <span className="box-content"> Hackodisha website</span>
             </div>
           </Card>{' '}
+        </a>
+
+        <a href="https://discord.gg/nHbKFw6h">
+          <Card>
+            <div className="box-img-container">
+              <img
+                className="box-img"
+                src={require('./assets/discord.png').default}
+                alt="Hackodisha Discord"
+              ></img>
+              <span className="box-content"> Hackodisha Discord</span>{' '}
+            </div>
+          </Card>
         </a>
 
         <a href="https://hackodisha.typeform.com/to/N19eeAoC">
@@ -61,17 +61,31 @@ function SocialLinks() {
           </Card>{' '}
         </a>
 
-        <a href="https://discord.gg/nHbKFw6h">
+        <a href="https://leaderboard.hackodisha.xyz">
           <Card>
             <div className="box-img-container">
               <img
                 className="box-img"
-                src={require('./assets/discord.png').default}
-                alt="Hackodisha Discord"
+                src={require('./assets/hackodisha-logo.png').default}
+                alt="Hackodisha Leaderboard"
               ></img>
-              <span className="box-content"> Hackodisha Discord</span>{' '}
+              <span className="box-content"> Leaderboard</span>
             </div>
-          </Card>
+          </Card>{' '}
+        </a>
+
+        <a href="https://guide.hackodisha.xyz/">
+          {' '}
+          <Card>
+            <div className="box-img-container">
+              <img
+                className="box-img"
+                src={require('./assets/hackodisha-logo.png').default}
+                alt="Hackodisha Guide"
+              ></img>
+              <span className="box-content"> Hackodisha Guide</span>
+            </div>
+          </Card>{' '}
         </a>
 
         <a href="https://www.instagram.com/webwiz.nitr/">
