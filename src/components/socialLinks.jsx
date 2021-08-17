@@ -6,7 +6,7 @@ function SocialLinks() {
   return (
     <div className="social">
       <div className="social-links-container">
-        <a href="https://devfolio.co/hackodisha/dashboard">
+        <a href="https://hackodisha.devfolio.co/">
           {' '}
           <Card>
             <div className="box-img-container">
@@ -29,7 +29,7 @@ function SocialLinks() {
                 src={require('./assets/hackodisha-logo.png').default}
                 alt="Hackodisha Website"
               ></img>
-              <span className="box-content"> Hackodisha website</span>
+              <span className="box-content"> Hackodisha Website</span>
             </div>
           </Card>{' '}
         </a>
@@ -47,20 +47,6 @@ function SocialLinks() {
           </Card>
         </a>
 
-        <a href="https://hackodisha.typeform.com/to/N19eeAoC">
-          {' '}
-          <Card>
-            <div className="box-img-container">
-              <img
-                className="box-img"
-                src={require('./assets/hackodisha-logo.png').default}
-                alt="Hackodisha Website"
-              ></img>
-              <span className="box-content">Join us</span>
-            </div>
-          </Card>{' '}
-        </a>
-
         <a href="https://leaderboard.hackodisha.xyz">
           <Card>
             <div className="box-img-container">
@@ -70,6 +56,20 @@ function SocialLinks() {
                 alt="Hackodisha Leaderboard"
               ></img>
               <span className="box-content"> Leaderboard</span>
+            </div>
+          </Card>{' '}
+        </a>
+
+        <a href="https://bit.ly/HOworkshop">
+          {' '}
+          <Card>
+            <div className="box-img-container">
+              <img
+                className="box-img"
+                src={require('./assets/youtube.png').default}
+                alt="Hackodisha Youtube Workshops"
+              ></img>
+              <span className="box-content">Join Workshop</span>
             </div>
           </Card>{' '}
         </a>
@@ -98,6 +98,20 @@ function SocialLinks() {
                 alt="Hackodisha Webwiz Instagram"
               ></img>
               <span className="box-content"> Instagram</span>
+            </div>
+          </Card>{' '}
+        </a>
+        
+        <a href="https://hackodisha.typeform.com/to/N19eeAoC">
+          {' '}
+          <Card>
+            <div className="box-img-container">
+              <img
+                className="box-img"
+                src={require('./assets/hackodisha-logo.png').default}
+                alt="Hackodisha Website"
+              ></img>
+              <span className="box-content">Join us</span>
             </div>
           </Card>{' '}
         </a>
