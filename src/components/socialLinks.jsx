@@ -60,7 +60,7 @@ function SocialLinks() {
           </Card>{' '}
         </a>
 
-        <a href="https://bit.ly/HOworkshop">
+        <a href="https://www.youtube.com/watch?v=biaOs164gl4">
           {' '}
           <Card>
             <div className="box-img-container">
