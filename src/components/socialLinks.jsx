@@ -47,15 +47,15 @@ function SocialLinks() {
           </Card>
         </a>
 
-        <a href="https://leaderboard.hackodisha.xyz">
+        <a href="https://dare2compete.com/p/replica-hackodisha-national-institute-of-technology-nit-rourkela-194970?lb=jDyxl0d">
           <Card>
             <div className="box-img-container">
               <img
-                className="box-img"
-                src={require('./assets/hackodisha-logo.png').default}
-                alt="Hackodisha Leaderboard"
+                className="box-img-cyborg"
+                src={require('./assets/cyborg.png').default}
+                alt="Cyborg"
               ></img>
-              <span className="box-content"> Leaderboard</span>
+              <span className="box-content"> Replica</span>
             </div>
           </Card>{' '}
         </a>
@@ -70,6 +70,19 @@ function SocialLinks() {
                 alt="Hackodisha Youtube Workshops"
               ></img>
               <span className="box-content">Join Workshop</span>
+            </div>
+          </Card>{' '}
+        </a>
+
+        <a href="https://dare2compete.com/p/auto-potency-hackodisha-national-institute-of-technology-nit-rourkela-194981?lb=jDyxl0d">
+          <Card>
+            <div className="box-img-container">
+              <img
+                className="box-img-cyborg"
+                src={require('./assets/cyborg.png').default}
+                alt="Cyborg"
+              ></img>
+              <span className="box-content"> Auto-Potency</span>
             </div>
           </Card>{' '}
         </a>
@@ -101,17 +114,16 @@ function SocialLinks() {
             </div>
           </Card>{' '}
         </a>
-        
-        <a href="https://hackodisha.typeform.com/to/N19eeAoC">
-          {' '}
+
+        <a href="https://leaderboard.hackodisha.xyz">
           <Card>
             <div className="box-img-container">
               <img
                 className="box-img"
                 src={require('./assets/hackodisha-logo.png').default}
-                alt="Hackodisha Website"
+                alt="Hackodisha Leaderboard"
               ></img>
-              <span className="box-content">Join us</span>
+              <span className="box-content"> Leaderboard</span>
             </div>
           </Card>{' '}
         </a>
