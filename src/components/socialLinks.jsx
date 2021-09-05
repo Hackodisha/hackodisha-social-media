@@ -47,15 +47,15 @@ function SocialLinks() {
           </Card>
         </a>
 
-        <a href="https://dare2compete.com/p/replica-hackodisha-national-institute-of-technology-nit-rourkela-194970?lb=jDyxl0d">
+        <a href="https://dare2compete.com/creative-cultural-event/crypto-quest-hackodisha-national-institute-of-technology-rourkela-197790?refId=pkfVP2s&lb=pPAoUz8">
           <Card>
             <div className="box-img-container">
               <img
-                className="box-img-cyborg"
-                src={require('./assets/cyborg.png').default}
-                alt="Cyborg"
+                className="box-img"
+                src={require('./assets/Finance_club.png').default}
+                alt="Finance Club"
               ></img>
-              <span className="box-content"> Replica</span>
+              <span className="box-content">Crypto-quest</span>
             </div>
           </Card>{' '}
         </a>
